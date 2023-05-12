@@ -1,0 +1,36 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+ 
+.destacados {
+    /*background-color: yellow;*/
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 40px;
+    background: rgb(246, 11, 68);
+    background: linear-gradient(90deg, rgba(246, 11, 68, 1) 19%, rgba(13, 241, 59, 1) 100%);
+    box-shadow: 10px 10px 5px black;
+    /*eje x eje y blur color*/
+    /*border radius 30px*/
+    border-radius: 10px 30px 5px 50px;
+    border: 3px solid yellow; 
+}
+div{
+    background-color: yellow;
+    column-count: 5;
+    column-gap: 50px;
+    column-rule: 5px solid black;
+}
+
+div p {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
