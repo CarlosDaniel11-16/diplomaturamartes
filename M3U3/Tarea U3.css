@@ -1,0 +1,38 @@
+@charset "uft-8";
+/*CSS Document*/
+
+body {
+    color: yellow;
+    background: rgb(3, 87, 3);
+    font-size: 100%;
+}
+#contenedor {
+    width: 800px;
+	background: #4e764c;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: red;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#ffffff;
+	text-decoration: none;
+}
+section {
+	background: #05ee1c;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #453e16;
+	float: right;
+	width: 190px;
+}
