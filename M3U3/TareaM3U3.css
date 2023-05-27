@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #ffffff;
+	background: #000000;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #09ff00;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #ff0000;
+	float: left;
+	width: 160px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#fbff00;
+	text-decoration: none;
+}
+section {
+	background: #72723b;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside {
+	background: #0fe7c3;
+	float: right;
+	width: 190px;
+}
