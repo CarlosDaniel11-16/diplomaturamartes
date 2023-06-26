@@ -206,8 +206,89 @@ h2 {
     display: block;
     max-width: 225px;
 }
-.servicio:nth-child(even){
+
+.servicio:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 /*fin servicios*/
+
+/*inicio galeria*/
+.galeria img {
+    width: 18%;
+    border: 1px solid rgb(255, 149, 0);
+    padding: 0.3%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%
+}
+
+.galeria {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*fin galeria*/
+
+/*inicio contacto*/
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    /*background-color: yellow;*/
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background: goldenrod;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 255, 128);
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px orange;
+    color: aqua;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: rgb(0, 47, 255);
+}
